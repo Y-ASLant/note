@@ -2,7 +2,7 @@ export default {
     // Gitee 配置
     gitee: {
         // 账号https://gitee.com/
-        owner: "aslant",
+        owner: "ASLant",
         // 仓库名称
         repo: "Note",
         // 分支名
