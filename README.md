@@ -1,3 +1,5 @@
+<meta name="referrer" content="no-referrer" />、
+
 > 个人笔记小站——支持夜间模式
 
 - [预览地址](https://aslant.top/)	
