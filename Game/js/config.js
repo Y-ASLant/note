@@ -4,7 +4,7 @@ export default {
         // 账号
         owner: "ASLant",
         // 仓库名称
-        repo: "Note",
+        repo: "Game",
         // 分支名
         sha: "master"
     },

@@ -13,7 +13,7 @@ const data = reactive({
     Trees: null, // 仓库下的所有文件
     content: null, // 当前内容
     contentSelectIndex: -1, // 当前选择的文件
-    treeMenu: "文件", // 菜单默认选择
+    treeMenu: "目录", // 菜单默认选择
     loadContent: false, // 笔记加载遮罩
     menuData: null, // 文章目录数据
     menuSelectIndex: 0, // 当前目录选择索引
