@@ -1,0 +1,25 @@
+<config>
+	<request action='allow' >
+		<table name='!anti_up_inject'>
+		</table>
+		<table name='!deny_referer'>
+		</table>
+		<table name='!rewrite'>
+		</table>
+		<table name='!speed_limit'>
+		</table>
+		<table name='BEGIN'>
+			<chain  action='table:!deny_referer'  name='!deny_referer'>
+			</chain>
+			<chain  action='continue'  name='!ssl_rewrite'>
+				<mark_url_rewrite  url='^http://(.*)$' dst='https://$1' nc='1' code='301'></mark_url_rewrite>
+			</chain>
+		</table>
+	</request>
+	<response action='allow' >
+		<table name='!cache_control'>
+		</table>
+		<table name='BEGIN'>
+		</table>
+	</response>
+</config>
